@@ -9,6 +9,7 @@
    - libselinux-python
    - libsemanage-python
 
+# NS
 #- name: Configure SELinux to start mysql on any port
 #  seboolean: name=mysql_connect_any state=true persistent=yes
 #  when: sestatus.rc != 0
