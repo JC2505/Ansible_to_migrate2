@@ -1,4 +1,5 @@
 ---
+# Recordar cambiar sintaxis
 # This playbook will install mysql and create db user and give permissions.
 
 - name: Install Mysql package
